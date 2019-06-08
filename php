@@ -6,3 +6,11 @@ https://www.php.net/manual/en/function.create-function.php
 Eval function advisory
 https://www.php.net/manual/en/function.eval.php
 
+
+
+
+Tools
+
+https://github.com/lowjoel/phortress
+https://github.com/dpnishant/raptor     ( PHP, RUBY, JS, Android) 
+
