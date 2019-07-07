@@ -25,8 +25,8 @@ public class Demo {
         JAXBContext jc = JAXBContext.newInstance(Customer.class);
 
         XMLInputFactory xif = XMLInputFactory.newFactory();
-<b><i>  xif.setProperty(XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, false); </b></i>
-        <b><i>xif.setProperty(XMLInputFactory.SUPPORT_DTD, false); </b></i>
+        xif.setProperty(XMLInputFactory.IS_SUPPORTING_EXTERNAL_ENTITIES, false);
+        xif.setProperty(XMLInputFactory.SUPPORT_DTD, false);
         XMLStreamReader xsr = xif.createXMLStreamReader(new StreamSource("src/xxe/input.xml"));
 
         Unmarshaller unmarshaller = jc.createUnmarshaller();
