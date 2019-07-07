@@ -38,3 +38,10 @@ public class Demo {
     }
 
 }
+
+
+
+<b>Links </b>
+
+https://stackoverflow.com/questions/12977299/prevent-xxe-attack-with-jaxb <br>
+https://github.com/OWASP/CheatSheetSeries/blob/master/cheatsheets/XML_External_Entity_Prevention_Cheat_Sheet.md <br>
